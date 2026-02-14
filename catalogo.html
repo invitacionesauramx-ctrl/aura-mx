@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catálogo | Aura MX</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+background:#000;
+color:#fff;
+font-family:'Montserrat',sans-serif;
+}
+
+header{
+text-align:center;
+padding:60px 20px;
+}
+
+header h1{
+font-family:'Playfair Display',serif;
+font-size:40px;
+color:#d4af37;
+letter-spacing:2px;
+margin-bottom:10px;
+}
+
+header p{
+opacity:.7;
+}
+
+.catalogo{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:40px;
+padding:40px;
+max-width:1200px;
+margin:auto;
+}
+
+.card{
+background:#111;
+padding:20px;
+border:1px solid #222;
+transition:.4s;
+}
+
+.card:hover{
+border:1px solid #d4af37;
+}
+
+.video{
+width:100%;
+aspect-ratio:16/9;
+margin-bottom:20px;
+}
+
+.video iframe{
+width:100%;
+height:100%;
+border:none;
+}
+
+.card h2{
+font-family:'Playfair Display',serif;
+color:#d4af37;
+margin-bottom:10px;
+}
+
+.card p{
+opacity:.7;
+font-size:14px;
+margin-bottom:15px;
+}
+
+.precio{
+font-size:18px;
+margin-bottom:20px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 30px;
+border:1px solid #d4af37;
+color:#d4af37;
+text-decoration:none;
+font-size:13px;
+letter-spacing:1px;
+transition:.3s;
+}
+
+.btn:hover{
+background:#d4af37;
+color:#000;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Catálogo Aura MX</h1>
+<p>Elige el modelo perfecto para tu evento</p>
+</header>
+
+<section class="catalogo">
+
+<!-- MODELO 1 -->
+<div class="card">
+<div class="video">
+<iframe src="PEGA_AQUI_LINK_YOUTUBE_1" allowfullscreen></iframe>
+</div>
+<h2>Invitación Fija Elegante</h2>
+<p>Diseño digital elegante con animación suave, botón de ubicación y confirmación de asistencia.</p>
+<div class="precio">$799 MXN</div>
+<a href="PEGA_AQUI_LINK_MERCADOPAGO_1" class="btn">Activar este modelo</a>
+</div>
+
+<!-- MODELO 2 -->
+<div class="card">
+<div class="video">
+<iframe src="PEGA_AQUI_LINK_YOUTUBE_2" allowfullscreen></iframe>
+</div>
+<h2>Invitación Interactiva Premium</h2>
+<p>Incluye música automática, animaciones avanzadas y experiencia visual envolvente.</p>
+<div class="precio">$1,299 MXN</div>
+<a href="PEGA_AQUI_LINK_MERCADOPAGO_2" class="btn">Activar este modelo</a>
+</div>
+
+<!-- MODELO 3 -->
+<div class="card">
+<div class="video">
+<iframe src="PEGA_AQUI_LINK_YOUTUBE_3" allowfullscreen></iframe>
+</div>
+<h2>Invitación Cinemática en Video</h2>
+<p>Video estilo película con música personalizada y efectos cinematográficos.</p>
+<div class="precio">$1,999 MXN</div>
+<a href="PEGA_AQUI_LINK_MERCADOPAGO_3" class="btn">Activar este modelo</a>
+</div>
+
+</section>
+
+</body>
+</html>
