@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aura MX | Invitaciones Digitales Premium</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0a;color:#fff;font-family:'Montserrat',sans-serif;overflow-x:hidden}
+a{text-decoration:none;color:inherit}
+header{position:fixed;top:0;width:100%;display:flex;justify-content:space-between;align-items:center;padding:20px 8%;background:rgba(0,0,0,0.7);backdrop-filter:blur(8px);z-index:1000}
+.logo{font-family:'Playfair Display',serif;font-size:24px;letter-spacing:3px;color:#d4af37}
+nav a{margin-left:30px;font-size:14px;transition:.3s}
+nav a:hover{color:#d4af37}
+.hero{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:0 20px;background:linear-gradient(to bottom,#0a0a0a 60%,#111)}
+.hero h1{font-family:'Playfair Display',serif;font-size:54px;color:#d4af37;margin-bottom:20px}
+.hero p{max-width:600px;font-size:16px;opacity:.8;margin-bottom:40px}
+.btn{padding:14px 40px;border:1px solid #d4af37;color:#d4af37;letter-spacing:1px;font-size:13px;transition:.4s;cursor:pointer}
+.btn:hover{background:#d4af37;color:#000}
+.section{padding:100px 8%}
+.section-title{text-align:center;font-family:'Playfair Display',serif;font-size:36px;color:#d4af37;margin-bottom:60px}
+.catalogo{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:40px}
+.card{background:#111;border:1px solid rgba(212,175,55,0.2);padding:30px;text-align:center;transition:.4s}
+.card:hover{transform:translateY(-8px);border-color:#d4af37}
+.card h3{font-family:'Playfair Display',serif;margin-bottom:15px;color:#d4af37}
+.card p{font-size:14px;opacity:.7;margin-bottom:25px}
+.footer{text-align:center;padding:40px 20px;font-size:12px;opacity:.5;border-top:1px solid rgba(212,175,55,0.1)}
+@media(max-width:768px){.hero h1{font-size:36px}.section{padding:80px 6%}}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">AURA MX</div>
+<nav>
+<a href="#catalogo">Catálogo</a>
+<a href="#compra">Comprar</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Invitaciones Digitales de Lujo</h1>
+<p>Diseño negro + dorado con estética cinematográfica para eventos exclusivos.</p>
+<a href="#catalogo" class="btn">Explorar Modelos</a>
+</section>
+
+<section id="catalogo" class="section">
+<h2 class="section-title">Modelos Exclusivos</h2>
+<div class="catalogo">
+
+<div class="card">
+<h3>Modelo Lux 01</h3>
+<p>Minimalismo elegante con animaciones suaves premium.</p>
+<a href="catalogo/modelo-lux-01/index.html" class="btn">Ver Demo</a>
+</div>
+
+<div class="card">
+<h3>Modelo Lux 02</h3>
+<p>Estética tecnológica sofisticada y moderna.</p>
+<a href="catalogo/modelo-lux-02/index.html" class="btn">Ver Demo</a>
+</div>
+
+</div>
+</section>
+
+<section id="compra" class="section">
+<h2 class="section-title">Activar Invitación</h2>
+<div class="catalogo">
+
+<div class="card">
+<h3>Precio Base $799 MXN</h3>
+<p>Pago seguro con Mercado Pago y activación inmediata.</p>
+<a href="https://www.mercadopago.com.mx/checkout/v1/redirect?pref_id=FAKE123" class="btn">Comprar Ahora</a>
+</div>
+
+</div>
+</section>
+
+<div class="footer">
+© 2026 Aura MX. Invitaciones Digitales Premium.
+</div>
+
+</body>
+</html>
